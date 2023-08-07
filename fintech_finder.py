@@ -69,7 +69,6 @@ w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 # customer’s account. Inside this function, call the `get_balance` function
 # and pass it your Ethereum `account.address`.
 
-
 ################################################################################
 # Step 1 - Part 3:
 # Import the following functions from the `crypto_wallet.py` file:
@@ -81,7 +80,6 @@ w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
 from crypto_wallet import generate_account, get_balance, send_transaction
-
 ################################################################################
 # Fintech Finder Candidate Information
 
@@ -93,6 +91,7 @@ candidate_database = {
     "Jo": ["Jo", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.7", .19, "Images/jo.jpeg"],
     "Kendall": ["Kendall", "0x8fD00f170FDf3772C5ebdCD90bF257316c69BA45", "4.1", .16, "Images/kendall.jpeg"]
 }
+
 
 # A list of the FinTech Finder candidates first names
 people = ["Lane", "Ash", "Jo", "Kendall"]
