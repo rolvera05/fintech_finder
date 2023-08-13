@@ -76,11 +76,11 @@ Ensure you are in the correct directory and that the file "fintech_finder.py" is
 
 ## Screenshots
 
-![Account Balance on Ganache](screenshots/account_balance.png)
+![Account Balance on Ganache](Images/screenshots/account_balance.png)
 
-![Transaction Details on Ganache](screenshots/transaction_details.png)
+![Transaction Details on Ganache](Images/screenshots/transaction_details.png)
 
-![Recipient's Account Balance on Ganache](screenshots/recipient_balance.png)
+![Recipient's Account Balance on Ganache](Images/screenshots/recipient_balance.png)
 
 ---
 
