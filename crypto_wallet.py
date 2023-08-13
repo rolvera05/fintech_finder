@@ -52,7 +52,7 @@ def send_transaction(w3, account, to, wage):
 
     # Convert eth amount to Wei
     value = w3.toWei(wage, "ether")
-
+   
     # Calculate gas estimate
     gasEstimate = w3.eth.estimateGas({"to": to, "from": account.address, "value": value})
 
@@ -62,7 +62,7 @@ def send_transaction(w3, account, to, wage):
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
-        "gasPrice": w3.toWei(20, 'gwei'),
+        "gasPrice": 765625000,
         "nonce": w3.eth.getTransactionCount(account.address)
     }
 
